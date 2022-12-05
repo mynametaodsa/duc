@@ -1,3 +1,4 @@
+// file tìm kiếm sản phẩm
 import React from "react";
 import { useState } from "react";
 import {
@@ -44,7 +45,7 @@ value.name.toLocaleLowerCase().includes(textSearch.toLocaleLowerCase())
           KẾT QUẢ
         </Text>
         <FlatList
-          data={data}
+          data={data2}
           keyExtractor={(item, index) => item + index}
           renderItem={renderItem}
         />

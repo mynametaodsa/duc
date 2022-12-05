@@ -28,13 +28,13 @@ function DrinkItem(props) {
           {item?.name}
         </Text>
         <View style={{ flexDirection: 'row' }}>
-          <Text style={{ color: '#C31C1C', fontWeight: 'bold', flex: 1 }}>
+          <Text style={{ color: '#FFFF00', fontWeight: 'bold', flex: 1 }}>
             {item?.price} VND
           </Text>
           <View
             style={{
               padding: 2,
-              backgroundColor: 'red',
+              backgroundColor: 'blue',
               borderRadius: 5,
               alignItems: 'center',
             }}
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     width: 150,
     borderRadius: 10,
     overflow: 'hidden',
-    backgroundColor: 'black',
+    backgroundColor: 'red',
     marginLeft: 12,
     flex: 1,
     marginBottom: 20,

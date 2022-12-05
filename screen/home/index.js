@@ -42,10 +42,10 @@ export default function HomeScreen({ navigation }) {
           marginTop: 10,
         }}
       >
-        <View style={{ flexDirection: 'row', alignItems: 'center', width:"100%", height: 60, backgroundColor:"yellow", borderRadius:5, justifyContent:'center',marginBottom:5, }}>
+       <View style={{ flexDirection: 'row', alignItems: 'center', width:"100%", height: 60, backgroundColor:"yellow", borderRadius:5, justifyContent:'center',marginBottom:5, }}>
          <Text
           style={{
-            color: '#F0F8FF',
+            color: '#FF0000',
             fontWeight: 'bold',
             fontSize: 25,
            

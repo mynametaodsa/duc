@@ -96,7 +96,7 @@ export default function SignUpScreen({ navigation }) {
             width: 100,
             marginBottom: 100,
           }}
-          source={require("../../assets/loBK.png")}
+          source={require("../../assets/dk_icon.png")}
         />
        
         <MainInput

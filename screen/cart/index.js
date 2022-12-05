@@ -59,7 +59,7 @@ export default function CartScreen() {
           style={{
             fontWeight: "bold",
             fontSize: 23,
-            color: "#F0F8FF",
+            color: "#000000",
             flex: 1,
           }}
         >

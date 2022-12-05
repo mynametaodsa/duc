@@ -1,3 +1,4 @@
+// file chỉnh thông tin đơn hàng
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import React, { useEffect, useState } from "react";
 import { View, Text, StatusBar, Image } from "react-native";
@@ -101,7 +102,7 @@ export default function ProfileScreen({ navigation }) {
         >
           <Text
             style={{
-              color: "orange",
+              color: "red",
               fontSize: 25,
               flex: 1,
               textAlign: "center",
@@ -111,7 +112,7 @@ export default function ProfileScreen({ navigation }) {
           </Text>
           <Text
             style={{
-              color: "orange",
+              color: "red",
               fontSize: 25,
               flex: 1,
               textAlign: "center",
@@ -121,7 +122,7 @@ export default function ProfileScreen({ navigation }) {
           </Text>
           <Text
             style={{
-              color: "orange",
+              color: "red",
               fontSize: 25,
               flex: 1,
               textAlign: "center",
@@ -133,7 +134,7 @@ export default function ProfileScreen({ navigation }) {
       </View>
       <MainButton
         onPress={logOut}
-        style={{ backgroundColor: "orange", marginBottom: 100 }}
+        style={{ backgroundColor: "pink", marginBottom: 100 }}
         title={"Đăng Xuất"}
       />
     </View>

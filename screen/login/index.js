@@ -80,7 +80,7 @@ export default function LoginScreen({ navigation }) {
               width: 100,
               marginBottom: 50,
             }}
-            source={require('../../assets/loBK.png')}
+            source={require('../../assets/icon_phone.png')}
           />
           
 
